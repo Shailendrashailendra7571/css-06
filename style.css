@@ -1,0 +1,33 @@
+.header{
+    height: 200px;
+    width: 100%;
+    background-color: #0a0a23;
+}
+p{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    padding: 20px 10px; 
+}
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.hori{
+    height: 5px;
+    background-color: yellow;
+}
